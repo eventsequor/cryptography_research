@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1745124165.85806 "main.aux" "main.bbl" "main" 1745125009.61247 0
+["bibtex main"] 1745180660.35463 "main.aux" "main.bbl" "main" 1745180661.00327 0
   "./references.bib" 1744223690.39974 237 6e233cc080544965597b9101dc51fd56 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1745125009.43255 836 43f15373199e88c71baed4de96adb77d "pdflatex"
+  "main.aux" 1745180660.82825 836 43f15373199e88c71baed4de96adb77d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1745125008.98672 "/Users/eventsequor/Documents/semetre3/Topicos modernos de criptografia/Proyecto/entregas/paper/main.tex" "main.pdf" "main" 1745125009.61258 0
-  "/Users/eventsequor/Documents/semetre3/Topicos modernos de criptografia/Proyecto/entregas/paper/main.tex" 1745125008.75821 877 47d96e17a80817f16b48a50d4faaa58f ""
+["pdflatex"] 1745180660.43084 "/Users/eventsequor/Documents/semetre3/Topicos modernos de criptografia/Proyecto/entregas/paper/main.tex" "main.pdf" "main" 1745180661.00337 0
+  "/Users/eventsequor/Documents/semetre3/Topicos modernos de criptografia/Proyecto/entregas/paper/main.tex" 1745180659.42423 879 38caa8f0eb021c5d683a4f05f1c2e23a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -84,10 +84,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716991438.03193 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716991379 8221423 d106636c8c4b27940af101302143ab28 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1745125009.43255 836 43f15373199e88c71baed4de96adb77d "pdflatex"
-  "main.bbl" 1745124165.92833 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex main"
-  "main.out" 1745125009.43298 541 a14175b48a27186a37ed1cf7a3fff570 "pdflatex"
-  "main.tex" 1745125008.75821 877 47d96e17a80817f16b48a50d4faaa58f ""
+  "main.aux" 1745180660.82825 836 43f15373199e88c71baed4de96adb77d "pdflatex"
+  "main.bbl" 1745180660.42921 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex main"
+  "main.out" 1745180660.82868 541 a14175b48a27186a37ed1cf7a3fff570 "pdflatex"
+  "main.tex" 1745180659.42423 879 38caa8f0eb021c5d683a4f05f1c2e23a ""
   "sections/conclusions.tex" 1744223654.62409 0 d41d8cd98f00b204e9800998ecf8427e ""
   "sections/introduction.tex" 1744223632.8326 0 d41d8cd98f00b204e9800998ecf8427e ""
   "sections/methodologies.tex" 1745124165.05077 199 2fd40954e7ba3be76ee4fb536d3c0ea1 ""
