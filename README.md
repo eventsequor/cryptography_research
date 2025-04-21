@@ -1,6 +1,6 @@
 # Topicos modernos de criptografía
 
-# Name: Daniel Andres Jaimes Cardenas
+### Nombre: Daniel Andres Jaimes Cardenas
 1. Tipo de Artículo: Survey (Revisión Bibliográfica)
 2. Titulo: The NIST Random Bit Generation Process: A Survey of the SP 800-90 Standards and Entropy Sources
 3. Objetivo General
@@ -15,3 +15,14 @@ Fase 1: Revisión de Estándares NIST: Lectura comprensiva y análisis de los do
 Fase 2: Búsqueda y Selección de Literatura Académica: Realización de búsquedas sistemáticas en bases de datos académicas para identificar artículos relevantes. Criterios de selección: trabajos que analicen fuentes de entropía, discutan la aplicación de SP 800-90B/90A/90C, evalúen pruebas de aleatoriedad, o critiquen/comparen los estándares.
 Fase 3: Síntesis y Estructuración del Survey: Organización lógica de toda la información recopilada (de estándares y papers) siguiendo los objetivos específicos. Creación de un esquema detallado para el artículo de survey final, definiendo las secciones principales (Introducción, Marco NIST RBG, Fuentes de Entropía en Profundidad, Revisión de Fuentes en la Literatura, Rol de DRBGs, Discusión, Conclusiones).
 Fase 4 (Condicional): Desarrollo de Ilustración Práctica: Si se determina viable en fases posteriores, se dedicará un tiempo limitado a desarrollar un pequeño código o análisis (claramente identificado como ilustrativo y no una validación completa) para reforzar la explicación de un concepto.
+
+### Nombre: Tomás Bedoya C.
+1. Tipo de Artículo: Survey
+2. Objetivo General: Estructurar una descripción comprehensiva del proceso de generación aleatoria de bits (RBG), con particular énfasis en las fuentes de entropía que utilizan los algoritmos de generación aleatoria. Por medio de la indiagación sobre las fuentes y técnicas de entropía existentes y frecuentemente utilizadas, se pretende detallar las características fundamentales de una fuente de entropía practica, junto con sus requisitos para cumplir con los estandares de intustria actuales. Posteriormente, se desea analizar las similitudes y diferencias entre diferentes técnicas de entropía para determinar los atributos de una fuente de entropía excepcional, sentando una base conceptual consisa que facilite la propocición de nuevas fuentes de entropía, cada vez más cercanas a la aleatoriedad pura.
+3. Objetivos Específicos:
+  Comprender los estandares internacionales a los que están sujetos hoy en día los métodos de RBG bajo el criterio de diversas organizaciones como la NSA y la NIST.
+  Recopilar los métodos más prominentes de RGB, así como los más utilizados. Esto incluye detallar la diferencia entre los "verdaderos" y los pseudo-generadores de números aleatorios, y las ventajas y desventajas de ambos métodos.
+  Indagar sobre las fuentes de entropía fisicas que son utilizadas comumente hoy en día, determinando sus aspectos comunes, sus ventajas y desventajas, y sus usos particulares.
+  Comprender el funcionamiento de los algoritmos de RGB relevantes actualmente, y como estos complementan las fuentes de entropía que utilizan, incrementando la dificultad de predictibilidad de los números que producen.
+  Documentar los desafios que la literatura académica estipula que existen actualmente en el campo de generación aleatoria de números, o de información en sí, y comparar los problemas con los métodos existentes con el propósito de       encontrar oportunidades de mejoría en los métodos existentes, o la proposición de métodos y fuentes totalmente nuevas.
+  Concretar un simiento conceptual básico del cual pueda partirse facilmente para incentivar la proposición de metodos de RGB novedosos que sigan aumentando la aleatoriedad a la hora de generar bits, incrementando así la dificultad de predicción de estos números en entornos en los que esta inpredictibilidad es fundamental para la calidad de seguridad informática.
