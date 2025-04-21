@@ -26,3 +26,18 @@ Fase 4 (Condicional): Desarrollo de Ilustración Práctica: Si se determina viab
   Comprender el funcionamiento de los algoritmos de RGB relevantes actualmente, y como estos complementan las fuentes de entropía que utilizan, incrementando la dificultad de predictibilidad de los números que producen.
   Documentar los desafios que la literatura académica estipula que existen actualmente en el campo de generación aleatoria de números, o de información en sí, y comparar los problemas con los métodos existentes con el propósito de       encontrar oportunidades de mejoría en los métodos existentes, o la proposición de métodos y fuentes totalmente nuevas.
   Concretar un simiento conceptual básico del cual pueda partirse facilmente para incentivar la proposición de metodos de RGB novedosos que sigan aumentando la aleatoriedad a la hora de generar bits, incrementando así la dificultad de predicción de estos números en entornos en los que esta inpredictibilidad es fundamental para la calidad de seguridad informática.
+
+
+### Eder Leandro Carbonero Baquero
+
+1. Tipo de articulo survey / proyecto
+2. Objetivo general: Validar que la generación de números aleatorios determinista con fuentes entropicas no deterministas o semillas basado en las recomendaciones de NIST.SP.800-90Ar1.
+
+**Descripción**
+
+Se determina que en varios mecanismos de generación de entropía usan sistemas complejos con comportamientos poco predecibles, dicho esto se pretende realizar una investigación que permita identificar la captura de información y la generación de la semilla que eventualmente es usado por pseudo sistemas de generación de DRBG (Deterministic random bit generator)
+
+3. Objetivos específicos 
+- Identificar que caracteristicas cumplen los sistemas que generan semillas aleatorias
+- Comprobar que los algoritmos de generación RBG dada una semilla siempre genera el mismo número de salida.
+- Identificar algoritmos o sistemas de validación de DRBG
