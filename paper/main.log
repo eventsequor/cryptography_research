@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.29)  23 MAY 2025 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.29)  24 MAY 2025 03:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,20 +316,14 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip55
-\bibsep=\skip56
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count295
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count296
-\Gm@cntv=\count297
-\c@Gm@tempcnt=\count298
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
 \Gm@bindingoffset=\dimen180
 \Gm@wd@mp=\dimen181
 \Gm@odd@mp=\dimen182
@@ -351,12 +345,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen195
 \cmidrulekern=\dimen196
 \defaultaddspace=\dimen197
-\@cmidla=\count299
-\@cmidlb=\count300
+\@cmidla=\count298
+\@cmidlb=\count299
 \@aboverulesep=\dimen198
 \@belowrulesep=\dimen199
-\@thisruleclass=\count301
-\@lastruleclass=\count302
+\@thisruleclass=\count300
+\@lastruleclass=\count301
 \@thisrulewidth=\dimen256
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
@@ -364,9 +358,15 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box55
 \extrarowheight=\dimen258
 \NC@list=\toks27
-\extratabsurround=\skip57
-\backup@length=\skip58
+\extratabsurround=\skip55
+\backup@length=\skip56
 \ar@cellbox=\box56
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count302
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
@@ -374,24 +374,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 -- Lines per column: 54 (approximate, difference = 2.43001pt).
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -413,7 +413,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -453,9 +453,69 @@ Package hyperref Info: Link coloring OFF on input line 23.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./sections/introduction.tex) (./sections/general_definitions.tex) (./sections/methodologies.tex) (./sections/techniques.tex) (./sections/results.tex) (./sections/conclusions.tex) (./main.bbl
+(./sections/introduction.tex) (./sections/general_definitions.tex) (./sections/methodologies.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 2134) in paragraph at lines 5--6
+\OT1/ptm/m/n/10 num-ber gen-er-a-tion were per-formed. The first was
+ []
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+) (./sections/techniques.tex [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<images/Figure11_CTR_DRBG_Update_Function.png.png, id=75, 290.08376pt x 414.54875pt>
+File: images/Figure11_CTR_DRBG_Update_Function.png.png Graphic file (type png)
+<use images/Figure11_CTR_DRBG_Update_Function.png.png>
+Package pdftex.def Info: images/Figure11_CTR_DRBG_Update_Function.png.png  used on input line 31.
+(pdftex.def)             Requested size: 205.98834pt x 294.36961pt.
+<images/Figure12_CTR_DRBG.png, id=81, 413.545pt x 793.96625pt>
+File: images/Figure12_CTR_DRBG.png Graphic file (type png)
+<use images/Figure12_CTR_DRBG.png>
+Package pdftex.def Info: images/Figure12_CTR_DRBG.png  used on input line 38.
+(pdftex.def)             Requested size: 205.98834pt x 395.47989pt.
+ [2 <./images/Figure11_CTR_DRBG_Update_Function.png.png> <./images/Figure12_CTR_DRBG.png>]) (./sections/results.tex
+<images/random_bits_CTR_DRBG_seed_python_random.png, id=97, 722.7pt x 433.62pt>
+File: images/random_bits_CTR_DRBG_seed_python_random.png Graphic file (type png)
+<use images/random_bits_CTR_DRBG_seed_python_random.png>
+Package pdftex.def Info: images/random_bits_CTR_DRBG_seed_python_random.png  used on input line 15.
+(pdftex.def)             Requested size: 205.98834pt x 123.5896pt.
+<images/secuentialSeedFrom0_To_100M_CTR_DRBG.png, id=98, 722.7pt x 433.62pt>
+File: images/secuentialSeedFrom0_To_100M_CTR_DRBG.png Graphic file (type png)
+<use images/secuentialSeedFrom0_To_100M_CTR_DRBG.png>
+Package pdftex.def Info: images/secuentialSeedFrom0_To_100M_CTR_DRBG.png  used on input line 28.
+(pdftex.def)             Requested size: 205.98834pt x 123.5896pt.
+) (./sections/conclusions.tex) (./main.bbl
+Underfull \hbox (badness 1484) in paragraph at lines 9--13
+\OT1/ptm/m/n/10 ran-dom bit gen-er-a-tors (re-vised).  Tech-ni-cal Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+[]\OT1/ptm/m/n/10 Morris Dworkin.  Rec-om-men-da-tion for block
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 15--19
+\OT1/ptm/m/n/10 ci-pher modes of op-er-a-tion: Ga-lois/counter mode
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 15--19
+\OT1/ptm/m/n/10 (gcm) and gmac.  Tech-ni-cal Re-port Spe-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+\OT1/ptm/m/n/10 Pub-li-ca-tion 800-38D, Na-tional In-sti-tute of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+\OT1/ptm/m/n/10 Stan-dards and Tech-nol-ogy (NIST), Novem-ber
+ []
 
 )
 
@@ -469,30 +529,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-] (./main.aux)
+[3 <./images/random_bits_CTR_DRBG_seed_python_random.png> <./images/secuentialSeedFrom0_To_100M_CTR_DRBG.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BC54145C8235A06D080D85A4C992629;1114.
+(rerunfilecheck)             Checksum: 1080EEC7C23916D39A1E4C5A6413FDD3;2388.
  ) 
 Here is how much of TeX's memory you used:
- 11906 strings out of 474116
- 190499 string characters out of 5743682
- 1941187 words of memory out of 5000000
- 34098 multiletter control sequences out of 15000+600000
- 595010 words of font info for 98 fonts, out of 8000000 for 9000
+ 12020 strings out of 474116
+ 193414 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 34192 multiletter control sequences out of 15000+600000
+ 596888 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1088b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 52905 bytes).
+ 75i,9n,79p,1233b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 513740 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
