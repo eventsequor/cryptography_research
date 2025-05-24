@@ -24,16 +24,20 @@
 
 \maketitle
 \begin{abstract}
-Aquí va el resumen del artículo, una breve descripción del problema, la metodología y los resultados.
+The following paper centers around several methods of random number generation. It aims to comprehend the essential concepts behind RNG, including pseudo and true random generation. Additionally, it explores different approaches to randomness that are used today that follow the NIST SP 800-90 standards, both reliant on entropy sources as well as algorithmic techniques, and compares their randomness with a series of statistical tests to determine which operate better and suggest appropriate uses for the different methods.
+
 \end{abstract}
+
+\section*{General defintions}
+\input{sections/general_definitions}
 
 \section{Introduction}
 \input{sections/introduction}
 
-\section{General defintions}
-\input{sections/general_definitions}
+\section{Key Concepts}
+\input{sections/key_concepts}
 
-\section{methodologies}
+\section{Studied Methods}
 \input{sections/methodologies}
 
 \section{techniques}
@@ -45,7 +49,8 @@ Aquí va el resumen del artículo, una breve descripción del problema, la metod
 \section{Conclusions}
 \input{sections/conclusions}
 
-\bibliographystyle{plainnat}
-\bibliography{references}
+\section*{References}  
+\bibliographystyle{plain}
+
 
 \end{document}
