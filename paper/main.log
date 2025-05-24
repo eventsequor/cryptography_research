@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.24)  24 MAY 2025 02:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.24)  24 MAY 2025 03:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,7 +378,14 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box57
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:beacon-architecture' multiply defined.
+
+
+LaTeX Warning: Label `fig:H:QRNG' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -463,7 +470,75 @@ Package hyperref Info: Link coloring OFF on input line 23.
 (sections/general_definitions.tex) (sections/introduction.tex) (sections/key_concepts.tex) [1{C:/Users/Tomas Bedoya Calixto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-] (sections/methodologies.tex) (sections/techniques.tex) (sections/results.tex) (sections/conclusions.tex)
+] (sections/methodologies.tex
+Underfull \hbox (badness 2409) in paragraph at lines 7--8
+\OT1/ptm/m/n/10 de-vel-oped by Gehad Salem Fekry, soft-ware en-gi-
+ []
+
+[2]
+<images/ArchitectureNISTBeacon.PNG, id=184, 389.0535pt x 162.00525pt>
+File: images/ArchitectureNISTBeacon.PNG Graphic file (type png)
+<use images/ArchitectureNISTBeacon.PNG>
+Package pdftex.def Info: images/ArchitectureNISTBeacon.PNG  used on input line 26.
+(pdftex.def)             Requested size: 228.8775pt x 95.30786pt.
+<images/IntelDRNPipeline.PNG, id=186, 227.6505pt x 319.1925pt>
+File: images/IntelDRNPipeline.PNG Graphic file (type png)
+<use images/IntelDRNPipeline.PNG>
+Package pdftex.def Info: images/IntelDRNPipeline.PNG  used on input line 46.
+(pdftex.def)             Requested size: 228.8775pt x 320.9256pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./images/ArchitectureNISTBeacon.PNG> <./images/IntelDRNPipeline.PNG>]) (sections/testing.tex [4]) (sections/results.tex
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 30.
+ (C:\Users\Tomas Bedoya Calixto\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<images/Hist_CRNG.png, id=205, 714.7503pt x 426.393pt>
+File: images/Hist_CRNG.png Graphic file (type png)
+<use images/Hist_CRNG.png>
+Package pdftex.def Info: images/Hist_CRNG.png  used on input line 37.
+(pdftex.def)             Requested size: 205.98834pt x 122.88306pt.
+ [5 <./images/Hist_CRNG.png>]
+<images/Hist_CTR.png, id=215, 714.7503pt x 426.393pt>
+File: images/Hist_CTR.png Graphic file (type png)
+<use images/Hist_CTR.png>
+Package pdftex.def Info: images/Hist_CTR.png  used on input line 68.
+(pdftex.def)             Requested size: 205.98834pt x 122.88306pt.
+
+Underfull \hbox (badness 6675) in paragraph at lines 77--78
+[]\OT1/ptm/m/n/10 In sum-mary, the sta-tis-ti-cal eval-u-a-tion of this
+ []
+
+[6 <./images/Hist_CTR.png>]
+<images/Hist_seq.png, id=226, 714.7503pt x 426.393pt>
+File: images/Hist_seq.png Graphic file (type png)
+<use images/Hist_seq.png>
+Package pdftex.def Info: images/Hist_seq.png  used on input line 103.
+(pdftex.def)             Requested size: 205.98834pt x 122.88306pt.
+
+Underfull \hbox (badness 2818) in paragraph at lines 114--114
+ \OT1/ptm/m/it/10 D. Sta-tis-ti-cal Test Re-sults for the Quan-tum RNG
+ []
+
+[7 <./images/Hist_seq.png>]
+<images/Hist_QRNG.png, id=237, 714.7503pt x 426.393pt>
+File: images/Hist_QRNG.png Graphic file (type png)
+<use images/Hist_QRNG.png>
+Package pdftex.def Info: images/Hist_QRNG.png  used on input line 138.
+(pdftex.def)             Requested size: 205.98834pt x 122.88306pt.
+
+Underfull \hbox (badness 2698) in paragraph at lines 143--144
+ \OT1/ptm/m/it/10 6) \OT1/ptm/b/it/10 His-togram\OT1/ptm/m/it/10 : [][][] \OT1/ptm/m/n/10 The his-togram dis-plays data for
+ []
+
+) (sections/conclusions.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[]\OT1/ptm/m/n/10 Kelsey, J. (2021). \OT1/ptm/m/it/10 NIST Bea-con Op-er-a-tions
+ []
+
+[8 <./images/Hist_QRNG.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -475,26 +550,68 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (main.aux)
+[9
+
+] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B28C9D7FDBB55BA8E431BD2AC1BDD203;1097.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 806E90FD01F86D3D1B7BC90C0F4D8E5B;7602
+(rerunfilecheck)             After:  C5070ACEED836CA89225931491380D8E;7685.
  ) 
 Here is how much of TeX's memory you used:
- 11954 strings out of 474485
- 196442 string characters out of 5736618
+ 12161 strings out of 474485
+ 200499 string characters out of 5736618
  1949542 words of memory out of 5000000
- 34059 multiletter control sequences out of 15000+600000
- 595010 words of font info for 98 fonts, out of 8000000 for 9000
+ 34197 multiletter control sequences out of 15000+600000
+ 597926 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1357b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 66983 bytes).
+ 75i,10n,79p,1429b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.4.0.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.4.0.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.4.0.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.4.0.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.4.0.1} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tomas Bedoya Calixto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 576323 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 

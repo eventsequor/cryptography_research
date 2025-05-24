@@ -11,7 +11,7 @@
 \usepackage{array}
 \geometry{margin=1in}
 
-\title{Deterministic Random Bit Generators NIST techniques comparison}
+\title{Deterministic Random Bit Generators: A Comparison of NIST-Approuved Techniques}
 \author{
     Tomas Bedoya \\
     Daniel Andres Jaimes Cardenas \\
@@ -38,10 +38,11 @@ The following paper centers around several methods of random number generation. 
 \input{sections/key_concepts}
 
 \section{Studied Methods}
+The following RNG methods are the ones that will be seen in detail for the rest of this report.
 \input{sections/methodologies}
 
-\section{techniques}
-\input{sections/techniques}
+\section{Statistical Testing}
+\input{sections/testing}
 
 \section{Results}
 \input{sections/results}
@@ -51,6 +52,15 @@ The following paper centers around several methods of random number generation. 
 
 \section*{References}  
 \bibliographystyle{plain}
+
+\begin{thebibliography}{9}
+\bibitem{kelsey2019} Kelsey, J., Brand\~{a}o, L. T. A., Peralta, R., Booth, J. (2019). \textit{A Proposal for a Beacon Design}. NIST.
+\bibitem{kelsey2018} Kelsey, J. (2018). \textit{Randomness Beacon Background and Overview}. NIST.
+\bibitem{mechalas2018} Mechalas, D. (2018). \textit{Intel Digital Random Number Generator (DRNG) Software Implementation Guide}.
+\bibitem{zhang2021} Zhang, Y., Lo, H.-P., Mink, A., Ikuta, T., Honjo, T., Takesue, H., Munro, W. J. (2021). \textit{A Simple Low-Latency Real-Time Certifiable Quantum Random Number Generator}. NIST.
+\bibitem{kelsey2021} Kelsey, J. (2021). \textit{NIST Beacon Operations Overview}.
+\end{thebibliography}
+
 
 
 \end{document}
