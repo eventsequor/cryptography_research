@@ -1,0 +1,68 @@
+\documentclass[conference]{IEEEtran}
+
+% --- Paquetes esenciales ---
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage[numbers]{natbib}  % Usa [numbers] si prefieres citas numeradas
+\geometry{margin=1in}
+
+% --- Título y autores ---
+\title{Deterministic Random Bit Generators: A Comparison of NIST-Approved Techniques}
+
+\author{
+    Tomas Bedoya \\
+    Daniel Andres Jaimes Cárdenas \\
+    Eder Leandro Carbonero Baquero \\
+    \textit{Universidad de los Andes, Colombia}
+}
+
+\date{\today}
+\pagestyle{plain} 
+% --- Documento principal ---
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The following paper centers around several methods of random number generation. It aims to comprehend the essential concepts behind RNG, including pseudo and true random generation. Additionally, it explores different approaches to randomness that are used today following the NIST SP 800-90 standards, both reliant on entropy sources as well as algorithmic techniques, and compares their randomness with a series of statistical tests to determine which operate better and suggest appropriate uses for the different methods.
+\end{abstract}
+
+\begin{IEEEkeywords}
+CTR DRBG, Counter mode Deterministic Random Bit Generator, NIST, National Institute of Standards and Technology, AES, Advanced Encryption Standard, RBG, Random Bit Generator, DRBG, Deterministic Random Bit Generator, RNG, Random Number Generator, PRNG, Pseudorandom Number Generator, TRNG, True Random Number Generator, DRNG, Digital Random Number Generator, ENRNG, Enhanced Random Number Generator, HSM, Hardware Security Module
+\end{IEEEkeywords}
+
+\section{General Definitions}
+\input{sections/general_definitions}
+
+\section{Introduction}
+\input{sections/introduction}
+
+As discussed in \cite{nist800-90a}, the NIST standards provide a comprehensive framework for deterministic random bit generators.
+
+\section{Key Concepts}
+\input{sections/key_concepts}
+
+\section{Studied Methods}
+The following RNG methods are the ones that will be seen in detail for the rest of this report.
+\input{sections/methodologies}
+
+\section{Statistical Testing}
+\input{sections/testing}
+
+\section{Results}
+\input{sections/results}
+
+\section{Conclusions}
+\input{sections/conclusions}
+
+% OPCIÓN 1: Referencias con BibTeX
+\bibliographystyle{plainnat}
+\bibliography{references}  % Asegúrate de tener un archivo references.bib
+
+\end{document}

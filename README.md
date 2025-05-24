@@ -1,3 +1,16 @@
+# Entrega final
+
+En esta entrega encontrará una sesión de implementación con dos notebooks de jupiter los cuales soportan los datos recopilados para la investigación
+
+- CTR_DRBG_notebook.ipynb
+- beacon.ipynb
+
+Tambien encontrara una sesión llamada newpaper que contiene los archivos fuentes en latex del articulo.
+
+El paper final esta en la ruta a continuacón descripta.
+
+- newpaper/main.pdf
+
 # Topicos modernos de criptografía
 
 ### Nombre: Daniel Andres Jaimes Cardenas
